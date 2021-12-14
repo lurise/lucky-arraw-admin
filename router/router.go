@@ -18,5 +18,6 @@ func init() {
 		group.Middleware(MiddlewareCORS)
 		group.ALL("/hello", api2.Hello)
 		group.ALL("/prize", api2.PrizeApi)
+		group.ALL("/qq",api2.QQApi)
 	})
 }
